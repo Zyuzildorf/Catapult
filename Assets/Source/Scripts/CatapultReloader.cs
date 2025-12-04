@@ -8,7 +8,7 @@ namespace Source.Scripts
         [SerializeField] private float _springIdleTension;
         [SerializeField] private float _springIdleDamper;
         [SerializeField] private float _rateOfFire;
-        [SerializeField] private GameObject _projectilePrefab;
+        [SerializeField] private Projectile _projectilePrefab;
         [SerializeField] private Transform _spawnSpot;
         [SerializeField] private CatapultShootState _shootState;
 

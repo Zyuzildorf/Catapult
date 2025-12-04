@@ -6,7 +6,6 @@ namespace Source.Scripts
     public class Catapult : MonoBehaviour
     {
         [SerializeField] private SpringJoint _springJoint;
-        [SerializeField] private GameObject _projectilePrefab;
         [SerializeField] private Rigidbody _bucketRigidbody;
 
         private InputReader _inputReader;
