@@ -1,18 +1,11 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class InputReader : MonoBehaviour
+namespace Source.Scripts
 {
-    // Start is called before the first frame update
-    void Start()
+    public class InputReader
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        public bool IsShootKeyPressed() => Input.GetKey(KeyCode.Space);
+        public bool IsReloadKeyPressed() => Input.GetKey(KeyCode.R);
+        public bool IsSwingKeyPressed() => Input.GetKey(KeyCode.S);
     }
 }
